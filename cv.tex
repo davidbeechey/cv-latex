@@ -4,6 +4,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{hieudo-build}
+\usepackage{multicol}
 
 \begin{document}
 
@@ -33,14 +34,13 @@
 
 	\subsection{The University of Edinburgh}
 	\descript{School of Informatics}
-	BSc in Computer Science \\
+	BSc in Artificial Intelligence and Computer Science \\
 	Expected Grad. June 2025 \\
 	\minisectionsep
 
 	\subsection{Stirling High School}
-	AAAA at Advanced Higher \\
-	AAAAAA at Higher \\
-	Grad. June 2021 \\
+	AAAA at Advanced Higher (2021) \\
+	AAAAAA at Higher (2020) \\
 	\minisectionsep
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,33 +48,15 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\section{Skills}
 	\location{Languages:}
-	JavaScript, Typescript, Python, \LaTeX \\
+	JavaScript/TypeScript, Python, Haskell, Java \\
 	\minisectionsep
 
-	\location{Frameworks:}
-	ReactJS, Next.js, Tailwind CSS \\
-	\minisectionsep
-
-	\location{Databases:}
-	MySQL, Prisma \\
+	\location{Technologies:}
+	ReactJS, Next.js, Tailwind CSS, MySQL, Prisma, Drizzle ORM, Stripe \\
 	\minisectionsep
 
 	\location{Tools:}
-	Git \\
-	\minisectionsep
-
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%     ADDITIONAL INFORMATION
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{Activities}
-
-	ABRSM Grade 8 Piano Performance (2020) (Distinction) \\
-	\minisectionsep
-
-	ABRSM Grade 5 Flute (2019) (Distinction) \\
-	\minisectionsep
-
-	ABRSM Grade 5 Music Theory (Distinction)\\
+	Git, \LaTeX \\
 	\minisectionsep
 
 	% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,7 +78,31 @@
 
 	SANS Foundations Award (2021) \\
 
-	\sectionsep
+	\minisectionsep
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%     ADDITIONAL INFORMATION
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Interests}
+
+	ABRSM Grade 8 Piano Performance (2020) (Distinction) \\
+	\minisectionsep
+
+	ABRSM Grade 5 Flute (2019) (Distinction) \\
+	\minisectionsep
+
+	ABRSM Grade 5 Music Theory (Distinction)\\
+    \minisectionsep
+
+    Member of EUWB (Edinburgh University Wind Band) (Flute)
+	\minisectionsep
+
+    Plants
+    \minisectionsep
+
+    Climbing
+    \sectionsep
+ 
 	\DTMsetdatestyle{mylastupdate}
 	\DTMdisplaydate{\the\year}{\the\month}{\the\day}{-1}
 
@@ -118,24 +124,25 @@
 	\position{Part-Time Web Developer}{Stirling, Scotland}
 	\vspace{0.9em} % Hacky fix for awkward extra vertical space
 	\begin{tightemize}
-		\item Developing a customisable online shopping website that will integrate with existing Accomplish Max EPOS systems.
-		\item Other web projects for clients.
+		\item Developing a customisable online shopping website that will integrate with existing EPOS systems.
+        \item Developing a web front-end for financial advisors to view and manage their clients and calls remotely.
 	\end{tightemize}
-	\verb|Technologies: Next.js, Typescript, Prisma, MySQL|
+	\verb|Next.js, TypeScript, Prisma, MySQL, Drizzle ORM, Stripe|
 	\sectionsep
 
-	\workplace{HYPED}{Jan 2023 - present}\\
-	\position{Software (Telemetry) Team Member}{Edinburgh, Scotland}
+	\workplace{HYPED - Software Team}{Jan 2023 - present}\\
+	\position{Telemetry Project Manager}{Edinburgh, Scotland}
 	\begin{tightemize}
-		\item Member of the HYPED (Edinburgh University's Hyperloop Society) Software Team, working on the Telemetry sub-team to develop the telemetry system and frontend for the HYPED pod.
+		\item Project manager on the HYPED (Edinburgh University's Hyperloop Society) Software Team, leading a group in the development of the telemetry system and GUI for the HYPED pod.
+        \item Formerly Telemetry Team Member from Jan-July 2023.
 	\end{tightemize}
-	\verb|Technologies: React, Vite, Typescript|
+	\verb|React, Vite, Nest JS, OpenMCT|
 	\sectionsep
 
-	\workplace{The University of Edinburgh}{Sep 2022 - Dec 2022}\\
-	\position{INF1A Tutor and Marker}{Edinburgh, Scotland}
+	\workplace{The University of Edinburgh}{Sep 2022 - present}\\
+	\position{INF1A Tutor and Marker, Demonstrator}{Edinburgh, Scotland}
 	\begin{tightemize}
-		\item Tutor and marker for the 1st year course "Introduction to Computation", covering functional programming in Haskell and computational logic.
+		\item Tutor and Marker for the 1st year course "Introduction to Computation", covering functional programming in Haskell and computational logic from Sep-Dec 2022. Lab Demonstrator for this course from Sep 2023.
 	\end{tightemize}
 	\sectionsep
 
@@ -151,44 +158,43 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\section{Projects}
 
-	\runsubsection{Hack the Burgh IX: Bearly Sustainable}
-	\descript{}
+	\workplace{Hack the Burgh IX: "Bearly Sustainable"}{2023 (Winning Team)}
 	\begin{tightemize}
-		\item Worked with a team of 5 to create an IOT data aggregation platform for environmental monitoring systems, using a serverless REST API written in JavaScript using AWS Lambda and DynamoDB.
-		\item Frontend written with Next.js.
+		\item Worked with a team of 5 to create an IOT data aggregation platform for environmental monitoring systems, using a serverless REST API written in JavaScript using AWS Lambda and DynamoDB. Frontend written with Next.js.
 	\end{tightemize}
 	\sectionsep
 
-	\runsubsection{Digital Team}
-	\descript{Stirling High School}
-	\begin{tightemize}
-		\item Worked with a fellow pupils on multiple projects, including an online registration form, a course choice web app, and helping to plan and produce the school’s Christmas Concert, Remembrance Service and Senior Prizegiving videos.
-	\end{tightemize}
-	\sectionsep
+	% \runsubsection{Digital Team}
+	% \descript{Stirling High School}
+	% \begin{tightemize}
+	% 	\item Worked with a fellow pupils on multiple projects, including an online registration form, a course choice web app, and helping to plan and produce the school’s Christmas Concert, Remembrance Service and Senior Prizegiving videos.
+	% \end{tightemize}
+	% \sectionsep
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     VOLUNTEERING
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \section{Volunteering}
+    
+    \workplace{7th Stirling (Beechwood) Scouts}{Jul 2018 – Jul 2020} \\
+    \position{Young Leader}{Stirling, Scotland}
+    \begin{tightemize}
+    	\item Regularly supporting a Scout group of around 30 10–14-year-olds.
+    	\item Coordinating weekly activities and supporting weekend camps and a Jamboree.
+    \end{tightemize}
+    \sectionsep
 
 \end{minipage}
 
 \newpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     VOLUNTEERING
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Volunteering}
-
-\workplace{7th Stirling (Beechwood) Scouts}{Jul 2018 – Jul 2020} \\
-\position{Young Leader}{Stirling, Scotland}
-\begin{tightemize}
-	\item Regularly supporting a Scout group of around 30 10–14-year-olds.
-	\item Coordinating Wednesday night activities and supporting weekend camping at Barrwood, Invertrossachs and Jamborees.
-\end{tightemize}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     REFERENCES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{References}
 
-% \begin{minipage}[t]{0.36\textwidth}
+\begin{multicols*}{2}
 
 \location{Paul Amery}
 Database Design and Development \\
@@ -201,19 +207,15 @@ Tel: 01786 849429 \\
 Mobile: 07436 532564 \\
 Email: paul.amery@ddd-3.com \\
 
-% \end{minipage}
-% \hfill
-% \begin{minipage}[t]{0.62\textwidth}
+\vfill\null
+\columnbreak
 
-% \location{Frances Scanlan}
-% Logoxpres Ltd \\
-% \minisectionsep
-% Unit 4, King's Court, \\
-% 9 Glentye Road, \\
-% Broadleys Business Park, \\
-% Stirling FK7 7LH \\
-% \minisectionsep
-% Phone: +44 7971 823878 \\
-% \end{minipage}
+\location{Kshitij Sharma}
+Ex. Head of Software at HYPED (2022/23) \\
+\minisectionsep
+Phone: +44 7748 671160 \\
+Email: kshitij4sharma@gmail.com\\
+
+\end{multicols*}
 
 \end{document}
